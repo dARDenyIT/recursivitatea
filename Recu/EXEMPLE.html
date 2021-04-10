@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Exemple</title>
+</head>
+<body>
+
+
+<!-- Header -->
+<header class="header">
+	<div class="container">
+		<div class="header__inner">
+			<div class="header__logo">
+				<a href="index.html">
+				<img src="Intro/png-clipart-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template.png" alt="" width="60" height="60">
+			</a>
+			</div>
+			<nav class="nav">
+				<a class="nav__link" href="INFORMATIE.html">Informatie</a>
+				<a class="nav__link" href="SURSE.html">Surse</a>
+				<a class="nav__link" href="EXEMPLE.html">Exemple</a>
+				<a class="nav__link" href="CONTACT.html">Contact</a>
+			</nav>
+		</div>
+	</div>
+</header>
+
+<!-- Intro -->
+<div class="intro">
+	<div class="container">
+		<div class="intro__inner"></div>
+			
+		<h1 class="intro__title">EXEMPLE</h1>
+		<h2 class="intro__subtitle">
+			
+		</h2>
+	</div>
+</div>
+
+<!-- Features -->
+<div class="container">
+	<div class="features">
+		<div class="features__item">
+			<img class="features__icon" src="EXEMPLE.jpg" height= 70px; width="70px">
+			<h3 class="features__title">EXEMPLE PBINFO</h3>
+			<div class="features__text">
+				Să scriem o funcție C++ care returnează factorialul unui număr natural transmis ca parametru. Varianta nerecursivă (iterativă) este următoarea:<br>
+				int fact(int n){<br>
+    int p = 1;<br>
+    for(int i = 1 ; i <= n ; i ++)<br>
+        p = p * i;<br>
+    return p;<br>
+}<br>
+			</div>
+		</div>
+		<div class="features__item">
+			<img class="features__icon" src="EXEMPLE.jpg" height= 70px; width="70px">
+			<h3 class="features__title">FUNCTIE DE TIP VOID:</h3>
+			<div class="features__text">int fact(int n){<br>
+    int f;<br>
+    if(n == 0)<br>
+        return 1;<br>
+    else<br>
+        f = fact(n - 1) * n;<br>
+    return f;<br>
+}<br>
+
+int main(){<br>
+    int x = fact(3);<br>
+    cout << x;<br>
+    return 0;<br>
+}</div>
+		</div>
+	</div>
+
+<!-- Recursivitatea -->
+<div class="recu">
+	<div class="container">
+		<div class="recu__item">
+			<div class="recu__photo">
+				<img class="recu__img" src="arc-exemple.gif">
+			</div>
+			<div class="recu__text">
+				FUNCTIE DE TIP NON-VOID:<br>
+				int fact(int n){<br>
+    int r;<br>
+    if(n == 0)<br>
+        r = 1;<br>
+    else<br>
+        r = n * fact(n - 1);<br>
+    return r;<br>
+}<br>
+int main(){<br>
+    int a;<br>
+    a = fact(4);<br>
+    cout << a;<br>
+    return 0;<br>
+}<br>
+			</div>
+		</div>
+	</div><!-- Container -->
+</div><!-- Recu -->
+</div>
+</body>
+</html>

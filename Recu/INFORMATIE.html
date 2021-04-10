@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Informatie</title>
+</head>
+<body>
+
+
+<!-- Header -->
+<header class="header">
+	<div class="container">
+		<div class="header__inner">
+			<div class="header__logo">
+				<a href="index.html">
+				<img src="Intro/png-clipart-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template.png" alt="" width="60" height="60">
+			</a>
+			</div>
+			<nav class="nav">
+				<a class="nav__link" href="INFORMATIE.html">Informatie</a>
+				<a class="nav__link" href="SURSE.html">Surse</a>
+				<a class="nav__link" href="EXEMPLE.html">Exemple</a>
+				<a class="nav__link" href="CONTACT.html">Contact</a>
+			</nav>
+		</div>
+	</div>
+</header>
+
+<!-- Intro -->
+<div class="intro">
+	<div class="container">
+		<div class="intro__inner"></div>
+			
+		<h1 class="intro__title">INFORMATIE</h1>
+		<h2 class="intro__subtitle">
+		</h2>
+	</div>
+</div>
+
+<!-- Features -->
+<div class="container">
+	<div class="features">
+		<div class="features__item">
+			<img class="features__icon" src="267eed3f-b782-4383-9e96-2ec267d0e075.jpg" height= 70px; width="70px">
+			<h3 class="features__title">În matematică</h3>
+			<div class="features__text">recursivitatea se referă la metoda de definire a funcțiilor și a seriilor numerice: o funcție dată recursiv își determină valoarea prin referirea la sine cu alte argumente. În acest caz, sunt posibile două opțiuni. Funcție recursivă finită. Este specificat în așa fel încât, pentru orice argument finit pentru un număr finit de apeluri recursive, acesta să conducă la unul dintre cazurile speciale definite separat calculate fără recursivitate. Aici, fiecare apel recursiv ulterior se face cu un argument mai mic decât unul. Deoarece n, prin definiție, este un număr întreg negativ, după n apeluri recursive, calculul funcției este garantat pentru a ajunge la cazul special, unde recursiunea se oprește. Astfel, în ciuda recursivității definiției, calculul funcției pentru orice argument din domeniu va fi finit.</div>
+		</div>
+		<div class="features__item">
+			<img class="features__icon" src="Programare-Informatie.jpg" height= 70px; width="70px">
+			<h3 class="features__title">IN PROGRAMARE</h3>
+			<div class="features__text">În programare, recursivitatea este un apel către o funcție (procedură) din interiorul său, direct (recursivitate simplă) sau prin alte funcții (recursivitate complexă sau indirectă), de exemplu, funcția A. O funcție de apelare B și funcția B este o funcție A. Numărul de apeluri imbricate către o funcție sau procedură se numește adâncime de recursivitate. Un program recursiv vă permite să descrieți calcule repetitive sau chiar potențial infinite și fără repetarea explicită a părților programului și utilizarea buclelor.În teorie, orice funcție recursivă poate fi înlocuită cu o buclă și o stivă. Cu toate acestea, o astfel de modificare, de regulă, este lipsită de sens, deoarece duce doar la înlocuirea salvării automate a contextului din stiva de apeluri cu executarea manuală a acelorași operații cu același consum de memorie sau mai mult. O excepție poate fi situația în care un algoritm recursiv trebuie modelat într-un limbaj în care recursiunea este interzisă.</div>
+		</div>
+	</div>
+
+<!-- Recursivitatea -->
+<div class="recu">
+	<div class="container">
+		<div class="recu__item">
+			<div class="recu__photo">
+				<img class="recu__img" src="pink triangle.gif">
+			</div>
+			<div class="recu__text">
+				Implementarea apelurilor de funcții recursive în limbaje și medii de programare utilizate practic, de regulă, se bazează pe mecanismul stivei de apeluri - adresa de retur și variabilele locale ale unei funcții sunt împinse pe stivă, astfel încât fiecare apel recursiv ulterior al acestei funcția își folosește propriul set de variabile locale și din această cauză funcționează corect ... Dezavantajul acestui mecanism, care are o structură destul de simplă, este că fiecare apel recursiv necesită o anumită cantitate de memorie RAM a computerului și, dacă adâncimea recursivă este prea mare, stiva de apeluri se poate revărsa.
+			</div>
+		</div>
+	</div><!-- Container -->
+</div><!-- Recu -->
+</div>
+</body>
+</html>
